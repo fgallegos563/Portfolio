@@ -1,0 +1,87 @@
+*{
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+.nav{
+display: flex;
+flex-wrap: wrap;
+background-color: grey;
+width: auto;
+}
+
+.nav .name{
+/*border: 3px solid black;*/
+min-height: 100px;
+margin: 10px;
+flex-grow: 10;
+}
+
+.nav .github{
+/*border: 3px solid black;*/
+min-height: 100px;
+padding-top: 50px;
+flex-grow: 1;
+justify-content: center;
+}
+
+.nav .instagram{
+/*border: 3px solid black;*/
+min-height: 100px;
+padding-top: 50px;
+flex-grow: 1;
+justify-content: center;
+}
+
+.nav .name p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+body{
+background-color: black;
+}
+
+.backgroundimg{
+background-image: url(./Images/placeimg_1000_1000_tech.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.3;
+}
+
+footer{
+    display: flex;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    justify-content: left;
+}
+
+footer .home {
+    min-height: 100px;
+    padding-top: 0;
+    flex-grow: 1;
+    padding-left: 600px;
+}
+
+.copyright{
+display: flex;
+flex-wrap: wrap;
+background-color: grey;
+width: auto;
+justify-content: center;
+}
+
+footer .copyright{
+min-height: 100px;
+padding-top: 0px;
+flex-grow: 3;
+
+}
